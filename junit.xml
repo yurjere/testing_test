@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.196">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-07-06T08:34:51" time="1.395" tests="1">
+    <testcase classname=" Admin can create a new event from the create event page" name=" Admin can create a new event from the create event page" time="0.188">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-07-06T08:34:52" time="0.041" tests="1">
+    <testcase classname=" sample test" name=" sample test" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-07-06T08:34:52" time="0.042" tests="1">
+    <testcase classname=" sample test 2" name=" sample test 2" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-07-06T08:34:53" time="0.043" tests="1">
+    <testcase classname=" sample test 3" name=" sample test 3" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-07-06T08:34:53" time="0.047" tests="1">
+    <testcase classname=" sample test 1" name=" sample test 1" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

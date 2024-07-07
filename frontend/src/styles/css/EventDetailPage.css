@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'CabinetGrostesk-bold';
+  src: url(../fonts/CabinetGrotesk/CabinetGrotesk-Bold.otf);
+}
+
+@font-face {
+  font-family: 'GeneralSans-Med';
+  src: url(../fonts/GeneralSans/GeneralSans-Medium.otf);
+}
+
+/*.event-detail-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}*/
+.event-detail-page-content{
+  padding: 20px;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.event-header {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.share-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.share-buttons p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.share-buttons a {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #4F4CEE;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #4F4CEE;
+  border-radius: 10px;
+}
+
+.event-image {
+  flex-grow: 1; /* Ensure the image container grows as needed */
+  max-width: 1000px;
+  width: 100%;
+  height: auto; /* Ensure the image scales correctly */
+  border-radius: 10px;
+}
+
+.event-content {
+  max-width: 900px; /* Ensure the width is consistent with the image */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto 40px auto; /* Center align the content */
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.event-main {
+  flex: 2.5;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+
+.ticket-info {
+  flex: 1;
+  text-align: center;
+  border: 1px solid #969393;
+  border-radius: 10px;   
+  padding: 20px;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.event-location, .event-date {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.event-location i, .event-date i {
+  margin-right: 10px;
+}
+
+.event-description {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.ticket-price {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.ticket-price-range {
+  font-size: 1.3em;
+  font-family: 'CabinetGrostesk-bold';
+}
+
+.ticket-info button {
+  background-color: #4F4CEE;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+.note {
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: #cdcdce;
+  color: black;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .share-buttons {
+    display: none;
+  }
+
+  .event-main {
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+
+  .event-main h1{
+    font-size: 1.7em;
+  }
+
+  .ticket-info {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .ticket-price {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-price-range {
+    font-size: 1.2em;
+    font-family: 'CabinetGrostesk-bold';
+  }
+
+  .event-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
